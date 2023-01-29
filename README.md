@@ -37,6 +37,36 @@ The script will output, once every hour:
   a CPU and memory-efficient solution. Please feel free to make assumptions as
   necessary with proper documentation.
 
+## Strategy
+
+## How to run the program
+
+Locate into the program folder
+
+```shell
+cd $HOME/instances/laligatech-python-challenge
+```
+
+Create virtualenv and install the *requirements.txt* file
+
+```shell
+python -m virtualenv $HOME/venv/laligatech-python-challenge
+source $HOME/venv/laligatech-python-challenge/bin/activate
+pip install -r requirements.txt
+```
+
+- Run 
+
+```shell
+python main.py
+```
+
+## How to run the tests
+
+```shell
+pytest -v
+```
+
 ## Links
 
 - [Timestamp To Date Converter](https://timestamp.online/)
