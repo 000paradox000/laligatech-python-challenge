@@ -40,6 +40,10 @@ The script will output, once every hour:
 ## Strategy
 
 
+1. Read the file using `spark.readStream.text` to generate Dataframe
+2. Generate columns parsing the value using regexp inside `udf`
+3. Generate a new consolidated Dataframe to be displayed on console
+
 ## How to run the program
 
 Locate into the program folder
@@ -61,6 +65,10 @@ Execute script
 ```shell
 python main.py
 ```
+
+Put files in the folder *files/input*. You can user your own or choose any file 
+from *tests/files* folder.
+
 
 ## How to run the tests
 
