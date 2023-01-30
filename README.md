@@ -39,6 +39,7 @@ The script will output, once every hour:
 
 ## Strategy
 
+
 ## How to run the program
 
 Locate into the program folder
@@ -55,7 +56,7 @@ source $HOME/venv/laligatech-python-challenge/bin/activate
 pip install -r requirements.txt
 ```
 
-- Run 
+Execute script 
 
 ```shell
 python main.py
